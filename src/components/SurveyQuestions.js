@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const SurveyQuestions = () => {
   return (
@@ -131,9 +132,7 @@ const SurveyQuestions = () => {
         </div>
       </p>
       <div className="flex-btn">
-        <button type="button" className="submit-btn">
-          Submit
-        </button>
+        <Button classes={"submit-btn"} text={"Submit"} />
       </div>
     </section>
   );

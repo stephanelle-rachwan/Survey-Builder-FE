@@ -11,8 +11,8 @@ function App() {
     <div>
       {/* <Nav /> */}
       {/* <Login /> */}
-      <DisplaySurvey />
-      {/* <SurveyQuestions /> */}
+      {/* <DisplaySurvey /> */}
+      <SurveyQuestions />
       {/* <AddSurvey /> */}
       {/* <AddQuestions /> */}
     </div>
