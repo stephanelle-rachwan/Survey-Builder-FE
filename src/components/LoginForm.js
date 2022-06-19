@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import LoginEmailInput from "./LoginEmailInput";
 import LoginPasswordInput from "./LoginPasswordInput";
 
@@ -7,9 +8,7 @@ const LoginForm = () => {
     <form className="login-form">
       <LoginEmailInput />
       <LoginPasswordInput />
-      <button type="button" className="login-btn">
-        Log In
-      </button>
+      <Button classes={"login-btn"} text={"Log In"} />
     </form>
   );
 };
