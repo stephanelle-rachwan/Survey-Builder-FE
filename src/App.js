@@ -1,34 +1,12 @@
 import "./App.css";
 import Nav from "./components/Nav";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div>
       <Nav />
-      <section className="login">
-        <h1> Admin Log in </h1>
-        <form className="login-form">
-          <div className="input-box">
-            <input
-              className="login-inputs"
-              type="email"
-              placeholder="Email address*"
-              required
-            ></input>
-          </div>
-          <div className="input-box">
-            <input
-              className="login-inputs"
-              type="password"
-              placeholder="Password*"
-              required
-            ></input>
-          </div>
-          <button type="button" className="login-btn">
-            Log In
-          </button>
-        </form>
-      </section>
+      <Login />
       <section className="surveys-displayed">
         <h1 className="survey-title">List of Surveys</h1>
         <p className="survey-name">Survey Name 1</p>
