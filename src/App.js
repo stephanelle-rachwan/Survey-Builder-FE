@@ -1,22 +1,14 @@
 import "./App.css";
 import Nav from "./components/Nav";
 import Login from "./components/Login";
+import DisplaySurvey from "./components/DisplaySurvey";
 
 function App() {
   return (
     <div>
       <Nav />
       <Login />
-      <section className="surveys-displayed">
-        <h1 className="survey-title">List of Surveys</h1>
-        <p className="survey-name">Survey Name 1</p>
-        <p className="survey-name">Survey Name 2</p>
-        <p className="survey-name">Survey Name 3</p>
-        <p className="survey-name">Survey Name 5</p>
-        <p className="survey-name">Survey Name 6</p>
-        <p className="survey-name">Survey Name 7</p>
-        <p className="survey-name">Survey Name 8</p>
-      </section>
+      <DisplaySurvey />
       <section className="survey-q">
         <h1 className="survey-title">Survey Name</h1>
         <p className="question">
