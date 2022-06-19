@@ -1,20 +1,12 @@
 import React from "react";
+import EmailInput from "./EmailInput";
+import Question from "./Question";
 
 const EmailQuestionBox = () => {
   return (
     <p className="question">
-      <div className="question-txt">
-        <span className="colored">Question 4: </span> Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Commodi, quod.
-      </div>
-      <div>
-        <input
-          className="email-input"
-          type="email"
-          placeholder="Enter email"
-          required
-        ></input>
-      </div>
+      <Question />
+      <EmailInput />
     </p>
   );
 };
