@@ -4,7 +4,19 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div>
-      <Nav />
+      <nav>
+        <h1 className="logo">SE Surveys</h1>
+        <ul class="nav-list">
+          <li>
+            <a href="#" className="active">
+              Users
+            </a>
+          </li>
+          <li>
+            <a href="#">Admin</a>
+          </li>
+        </ul>
+      </nav>
       <section className="login">
         <h1> Admin Log in </h1>
         <form className="login-form">
