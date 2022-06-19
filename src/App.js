@@ -11,10 +11,10 @@ function App() {
     <div>
       <Nav />
       <Login />
-      <DisplaySurvey />
-      <SurveyQuestions />
-      <AddSurvey />
-      <AddQuestions />
+      {/* <DisplaySurvey /> */}
+      {/* <SurveyQuestions /> */}
+      {/* <AddSurvey /> */}
+      {/* <AddQuestions /> */}
     </div>
   );
 }
