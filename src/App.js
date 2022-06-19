@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Login from "./components/Login";
 import DisplaySurvey from "./components/DisplaySurvey";
 import SurveyQuestions from "./components/SurveyQuestions";
+import AddSurvey from "./components/AddSurvey";
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
       <Login />
       <DisplaySurvey />
       <SurveyQuestions />
-      <section className="add-survey">
-        <button className="add-btn">Create a new survey</button>
-      </section>
+      <AddSurvey />
       <section className="add-questions">
         <p className="filling">
           <h1 className="question-txt">Survey Title:</h1>
