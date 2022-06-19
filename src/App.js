@@ -9,9 +9,9 @@ import AddQuestions from "./components/AddQuestions";
 function App() {
   return (
     <div>
-      <Nav />
-      <Login />
-      {/* <DisplaySurvey /> */}
+      {/* <Nav /> */}
+      {/* <Login /> */}
+      <DisplaySurvey />
       {/* <SurveyQuestions /> */}
       {/* <AddSurvey /> */}
       {/* <AddQuestions /> */}
