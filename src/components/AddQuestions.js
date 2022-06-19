@@ -34,8 +34,7 @@ const AddQuestions = () => {
           <option value="dropdown">Dropdown</option>
           <option value="linear_scale">Linear Scale</option>
         </select>
-      </p>
-      <p className="filling">
+
         <h1 className="question-txt">Enter your question: </h1>
         <input
           className="question-input"
@@ -43,8 +42,7 @@ const AddQuestions = () => {
           placeholder="Question here"
           required
         ></input>
-      </p>
-      <p className="filling">
+
         <h1 className="question-txt">
           How many choices do you want your question to have?{" "}
         </h1>
@@ -54,8 +52,7 @@ const AddQuestions = () => {
           placeholder="Enter # of choices"
           required
         ></input>
-      </p>
-      <p className="filling">
+
         <h1 className="question-txt">Choices: </h1>
         <input
           className="choices-input"

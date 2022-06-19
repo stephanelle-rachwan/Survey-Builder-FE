@@ -1,9 +1,10 @@
 import React from "react";
+import Button from "./Button";
 
 const AddSurvey = () => {
   return (
     <section className="add-survey">
-      <button className="add-btn">Create a new survey</button>
+      <Button classes={"add-btn"} text={"Create a new survey"} />
     </section>
   );
 };

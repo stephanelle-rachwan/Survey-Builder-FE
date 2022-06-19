@@ -12,9 +12,9 @@ function App() {
       {/* <Nav /> */}
       {/* <Login /> */}
       {/* <DisplaySurvey /> */}
-      <SurveyQuestions />
+      {/* <SurveyQuestions /> */}
       {/* <AddSurvey /> */}
-      {/* <AddQuestions /> */}
+      <AddQuestions />
     </div>
   );
 }
