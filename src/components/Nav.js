@@ -11,7 +11,7 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <a href="#">Admin</a>
+          <a href="/Login">Admin</a>
         </li>
       </ul>
     </nav>
