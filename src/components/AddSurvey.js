@@ -4,7 +4,16 @@ import Button from "./Button";
 const AddSurvey = () => {
   return (
     <section className="add-survey">
-      <Button classes={"add-btn"} text={"Create a new survey"} />
+      <button
+        type="button"
+        className="add-btn"
+        onClick={(e) => {
+          console.log("HEEY");
+          window.location.href = "/Add_Questions";
+        }}
+      >
+        Create a new survey
+      </button>
     </section>
   );
 };

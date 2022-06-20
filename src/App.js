@@ -30,6 +30,8 @@ function App() {
           }
         ></Route>
         <Route path="/Login" element={<Login />}></Route>
+        <Route path="/Add_Survey" element={<AddSurvey />}></Route>
+        <Route path="/Add_Questions" element={<AddQuestions />}></Route>
       </Routes>
     </BrowserRouter>
   );
