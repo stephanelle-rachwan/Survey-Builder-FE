@@ -9,28 +9,33 @@ import ChooseQuestionTypeSelect from "./ChooseQuestionTypeSelect";
 import EnterQuestionText from "./EnterQuestionText";
 import EnterQuestionNumber from "./EnterQuestionNumber";
 import EnterChoice from "./EnterChoice";
+import QuestionBox from "./QuestionBox";
 
 const AddQuestions = () => {
+  const [title, setTitle] = React.useState("");
+  const [questionsNumber, setNumber] = React.useState("");
+
   return (
     <section className="add-questions">
       <p className="filling">
         <SurveyTitleQuestion />
-        <SurveyTitleInput />
+        <SurveyTitleInput setTitle={setTitle} title={title} />
       </p>
-      <p className="filling">
+      <div className="filling">
         <SurveyQuestionInput />
-        <SurveyQuestionNumber />
-      </p>
-      <p className="filling">
-        <ChooseQuestionType />
-        <ChooseQuestionTypeSelect />
-
-        <EnterQuestionText />
-
-        <EnterQuestionNumber />
-
-        <EnterChoice />
-      </p>
+        <SurveyQuestionNumber
+          setNumber={setNumber}
+          questionsNumber={questionsNumber}
+        />
+      </div>
+      {questionsNumber !== "" &&
+        [...Array(parseInt(questionsNumber))].map((elementInArray, index) => (
+          <div className="" key={index}>
+            {" "}
+            <QuestionBox />{" "}
+          </div>
+        ))}
+      {/* <QuestionBox /> */}
       <div className="flex-btn">
         <Button classes={"submit-btn"} text={"Submit"} />
       </div>

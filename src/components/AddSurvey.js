@@ -8,7 +8,6 @@ const AddSurvey = () => {
         type="button"
         className="add-btn"
         onClick={(e) => {
-          console.log("HEEY");
           window.location.href = "/Add_Questions";
         }}
       >
